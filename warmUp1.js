@@ -4,3 +4,17 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+1//
+'hiba'+' '+'brik'
+
+
+2//   
+13/3
+
+3//
+(13+14+13+15+16+17+19+13+16+15)/10
+
+4//years seconds * my age 
+31556952 * 22 
+
+
