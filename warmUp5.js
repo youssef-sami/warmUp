@@ -3,14 +3,22 @@
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
 
+
+function greaterNum(A,B){
+  if (B > A) {
+  	return B
+  }
+  return A
+}
+
 // 2) Write a function named isEven using  for loop that
 // -  iterate from x to y.
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
 
-// function isEven(x, y) {
+ function isEven(x, y) {
 
-// }
+ }
 //3) write a function named sum that
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
@@ -20,6 +28,16 @@
 // -  the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n
 // - 5! = 5*4*3*2*1 = 120
 // ex : factorial(5) => 120
+function factorial (n) {
+
+if (n === 0) {
+
+	return 1;
+}
+
+return n * factorial(n - 1);
+
+}
 
 //5) write a function named decimals
 //- the function will format a number up to specified decimal places
