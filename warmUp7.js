@@ -1,5 +1,5 @@
 // 1-Choose the correct comparison operator to display "true", when: 5 is less than 7.
-//answer :
+//answer :   (5 > 7)
 
 //2- Write a function named helloWorld that:
 //takes 1 argument, a language code (e.g. "fr", "es", "en")
